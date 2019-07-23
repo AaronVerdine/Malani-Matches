@@ -9,7 +9,7 @@ var id2 = "";
 var numberOfImages = 20;
 
 //Randomize image locations
-var images = ["animal-icons/cow.ico",
+var images = ["cow.ico",
   "animal-icons/cow.ico",
   "animal-icons/chicken.ico",
   "animal-icons/chicken.ico",
