@@ -70,7 +70,8 @@ img {
 
 img:hover {
 	border: 5px solid white;
-    border-radius: 10px;
+	border-radius: 10px;
+	
 }
 
 .buttonSection {
