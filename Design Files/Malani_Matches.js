@@ -10,7 +10,7 @@ var numberOfImages = 20;
 
 //Randomize image locations
 var images = ["cow.ico",
-  "animal-icons/cow.ico",
+  "cow.ico",
   "animal-icons/chicken.ico",
   "animal-icons/chicken.ico",
   "animal-icons/butterfly.ico",
@@ -34,7 +34,7 @@ var images = ["cow.ico",
 var images = shuffle(images);
 
 //Set span titles to corresponding image name
-for (var i = 1; i <= numberOfImages; ++i) {
+for (let i = 1; i <= numberOfImages; ++i) {
   $('#' + i).attr("name", images[i - 1]);
 }
 
